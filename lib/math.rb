@@ -1,3 +1,5 @@
+require 'pry'
+
 def addition(num1, num2)
   num1 + num2
 end
@@ -20,4 +22,5 @@ end
 
 def square_root(num)
   num ** 2
+  binding.pry
 end
